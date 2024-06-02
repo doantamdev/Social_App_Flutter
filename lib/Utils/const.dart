@@ -20,5 +20,5 @@ final List<String> iconsCustom = [
   '😊','😆','😅','🤣','😂','😍','😘', '❤️','💘','🐶','🐵','🦊','🐴','🐷','🐔'
 ];
 
-const appId = "64118cdfe0004fbdae809c3896762609";// agora app id
+const appId = "9c29102f9b5749988c092d4d9bab52e9";// agora app id
 

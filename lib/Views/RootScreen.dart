@@ -3,6 +3,8 @@ import 'dart:convert';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:shared_preferences/shared_preferences.dart';
+import 'package:flutter_native_splash/flutter_native_splash.dart';
+
 
 import '../Models/user.dart';
 import '../Utils/global.dart';
@@ -63,6 +65,7 @@ class RootScreenState extends State<RootScreen>
       _updateAuthStatus(AuthStatus.signedIn);
       return tempUser;
     });
+    FlutterNativeSplash.remove();
     super.initState();
   }
 

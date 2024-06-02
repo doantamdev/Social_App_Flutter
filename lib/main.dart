@@ -1,10 +1,14 @@
 import 'package:flutter/material.dart';
 import 'package:social_app/stream/myStream.dart';
+import 'package:flutter_native_splash/flutter_native_splash.dart';
+
 
 import 'Utils/global.dart';
 import 'Views/RootScreen.dart';
 
 void main() {
+  WidgetsBinding widgetsBinding = WidgetsFlutterBinding.ensureInitialized();
+  FlutterNativeSplash.preserve(widgetsBinding: widgetsBinding);
   Global.myStream = MyStream();
   runApp(const MyApp());
 }

@@ -47,6 +47,8 @@ dependencies:
   audioplayers: ^6.0.0
   agora_rtc_engine: ^6.3.1
   permission_handler: ^11.3.1
+  flutter_native_splash: ^2.4.0
+  flutter_launcher_icons: ^0.13.1
 
 dev_dependencies:
   flutter_test:
